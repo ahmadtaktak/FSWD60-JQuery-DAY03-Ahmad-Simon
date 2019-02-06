@@ -2,7 +2,8 @@ $(document).ready(function(){
 	
 
 
-	$("#mm").css("background-color","red");
+	$(".product-image > img[src*='notebook']").css("background","red");
 	
 
 })
+console.log("Hello")
